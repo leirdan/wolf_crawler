@@ -40,6 +40,7 @@ impl Wolfie {
                                 if let Some(text) = link {
                                     debug!("found link!: {}", text);
                                     self.visited_nodes.insert(text.to_string());
+                                    }
                                 }
                             }
                             None => debug!("this anchor doesn't has a link"),
