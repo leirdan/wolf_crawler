@@ -2086,6 +2086,7 @@ dependencies = [
  "log",
  "reqwest",
  "tokio",
+ "url",
 ]
 
 [[package]]
